@@ -1,12 +1,12 @@
 name: Bug report
-description: Report a ToRec install, recording, update, or playback problem.
+description: Report a ToRec install, recording, auto-start, update, or playback problem.
 title: "[Bug] "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Спасибо за фидбек. Заполни коротко: что случилось, где был созвон, ОС и версия ToRec.
+        Спасибо за фидбек. Заполни коротко: что случилось, где был созвон, ОС и версия ToRec. Не прикладывай приватные аудиофайлы, если в них есть чувствительные данные.
   - type: input
     id: platform
     attributes:
@@ -29,6 +29,16 @@ body:
       placeholder: macOS 15.x MacBook M4 / Windows 11 laptop
     validations:
       required: true
+  - type: dropdown
+    id: install-path
+    attributes:
+      label: App install path
+      options:
+        - /Applications/ToRec.app
+        - dist/ToRec.app
+        - apps/macos/.build/app/ToRec.app
+        - Windows zip folder
+        - Other
   - type: input
     id: call-app
     attributes:
@@ -51,4 +61,10 @@ body:
     id: attachments
     attributes:
       label: Screenshots/logs
-      description: Attach a screenshot. If possible, copy logs from Diagnostics.
+      description: Attach a screenshot. If possible, copy logs from Diagnostics -> Logs -> Copy Logs.
+      placeholder: |
+        Screenshot:
+
+        Diagnostics logs:
+
+        Recording folder path, if relevant:
