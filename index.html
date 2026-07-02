@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ToRec is a lightweight local-first desktop recorder for calls. Download public test builds and report bugs.">
+    <title>ToRec - local call recorder</title>
+    <link rel="stylesheet" href="assets/site.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Site navigation">
+      <a class="brand" href="./" aria-label="ToRec home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>ToRec</span>
+      </a>
+      <nav class="top-nav">
+        <a href="#download">Download</a>
+        <a href="#support">Report bug</a>
+        <a href="latest.json">Manifest</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public test builds</p>
+          <h1>Local call recording without OBS.</h1>
+          <p class="lede">
+            ToRec is a lightweight desktop recorder for microphone and system audio. MVP builds are local-first: no cloud upload, no sync, no bundled AI.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" data-download="macos" href="https://github.com/tolcheev/torec-releases/releases">Download macOS</a>
+            <a class="button secondary" href="https://github.com/tolcheev/torec-releases/issues/new?template=bug_report.yml&labels=bug&title=%5BBug%5D%20">Report bug</a>
+          </div>
+        </div>
+
+        <div class="product-visual" aria-label="ToRec recording status preview">
+          <div class="menubar">
+            <span class="record-dot"></span>
+            <span class="menu-title">ToRec</span>
+            <span class="menu-pill">REC 12:48</span>
+          </div>
+          <div class="preview-panel">
+            <div class="preview-row">
+              <span>Source</span>
+              <strong>Yandex Telemost</strong>
+            </div>
+            <div class="waveform" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div class="file-grid" aria-label="Recording outputs">
+              <span>source/mic.m4a</span>
+              <span>source/system.m4a</span>
+              <span>export/mixed.m4a</span>
+              <span>metadata.json</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="download" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Downloads</p>
+          <h2>Latest builds</h2>
+          <p id="manifest-status">Reading latest.json...</p>
+        </div>
+
+        <div class="release-grid">
+          <article class="release-card is-primary">
+            <div>
+              <p class="platform">macOS</p>
+              <h3 data-version="macos">v0.1.7</h3>
+              <p data-notes="macos">Stable MVP test build for Apple Silicon Macs.</p>
+            </div>
+            <div class="card-actions">
+              <a class="button primary" data-download="macos" href="https://github.com/tolcheev/torec-releases/releases">Download DMG</a>
+              <a class="text-link" data-release="macos" href="https://github.com/tolcheev/torec-releases/releases">Release notes</a>
+            </div>
+          </article>
+
+          <article class="release-card">
+            <div>
+              <p class="platform">Windows beta</p>
+              <h3 data-version="windows">v0.2.5-beta</h3>
+              <p data-notes="windows">Experimental tray client for student-side testing.</p>
+            </div>
+            <div class="card-actions">
+              <a class="button secondary" data-download="windows" href="https://github.com/tolcheev/torec-releases/releases">Download ZIP</a>
+              <a class="text-link" data-release="windows" href="https://github.com/tolcheev/torec-releases/releases">Release notes</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split">
+        <div>
+          <p class="eyebrow">MVP boundaries</p>
+          <h2>Built for local recordings.</h2>
+        </div>
+        <ul class="feature-list">
+          <li>Automatic start for known call apps and browser call titles.</li>
+          <li>Microphone plus system audio saved as local files.</li>
+          <li>No screen video recording in the MVP.</li>
+          <li>No cloud upload, account, sync, or bundled AI.</li>
+        </ul>
+      </section>
+
+      <section id="support" class="section support">
+        <div>
+          <p class="eyebrow">Support</p>
+          <h2>Found a bug?</h2>
+          <p>
+            Use the GitHub form and include the ToRec version, OS version, call app, screenshots, and Diagnostics logs if available.
+          </p>
+        </div>
+        <div class="support-actions">
+          <a class="button primary" href="https://github.com/tolcheev/torec-releases/issues/new?template=bug_report.yml&labels=bug&title=%5BBug%5D%20">Open bug report</a>
+          <a class="button secondary" href="https://github.com/tolcheev/torec-releases/issues">View issues</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>ToRec public test builds</span>
+      <a href="https://github.com/tolcheev/torec-releases">GitHub</a>
+    </footer>
+
+    <script src="assets/site.js" defer></script>
+  </body>
+</html>
