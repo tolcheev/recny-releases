@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Download latest ToRec build
-    url: https://tolcheev.github.io/torec-releases/
+  - name: Download latest Recny build
+    url: https://tolcheev.github.io/recny-releases/
     about: Use the public landing page for the latest macOS and Windows test builds.
   - name: View release manifest
-    url: https://raw.githubusercontent.com/tolcheev/torec-releases/main/latest.json
-    about: Inspect the JSON manifest used by ToRec update checks.
+    url: https://raw.githubusercontent.com/tolcheev/recny-releases/main/latest.json
+    about: Inspect the JSON manifest used by Recny update checks.

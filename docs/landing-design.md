@@ -1,10 +1,10 @@
-# ToRec Public Landing Design
+# Recny Public Landing Design
 
 Date: 2026-07-02
 
 ## Goal
 
-Add a lightweight public entry point for ToRec releases without introducing a backend, Telegram bot, mini app, analytics, or paid hosting.
+Add a lightweight public entry point for Recny releases without introducing a backend, Telegram bot, mini app, analytics, or paid hosting.
 
 The page should help testers do three things quickly:
 
@@ -14,7 +14,7 @@ The page should help testers do three things quickly:
 
 ## Approach
 
-Use GitHub Pages from the `torec-releases` repository root.
+Use GitHub Pages from the `recny-releases` repository root.
 
 The static page reads `latest.json`, which is already the update manifest used by the apps. That keeps public downloads, in-app update prompts, and the landing page aligned around one source of truth.
 

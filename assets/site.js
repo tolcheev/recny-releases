@@ -1,14 +1,14 @@
 const fallbackManifest = {
   macos: {
     display_version: "v0.1.7",
-    release_url: "https://github.com/tolcheev/torec-releases/releases",
-    download_url: "https://github.com/tolcheev/torec-releases/releases",
+    release_url: "https://github.com/tolcheev/recny-releases/releases",
+    download_url: "https://github.com/tolcheev/recny-releases/releases",
     notes: "Stable MVP test build for Apple Silicon Macs."
   },
   windows: {
     display_version: "v0.2.5-beta",
-    release_url: "https://github.com/tolcheev/torec-releases/releases",
-    download_url: "https://github.com/tolcheev/torec-releases/releases",
+    release_url: "https://github.com/tolcheev/recny-releases/releases",
+    download_url: "https://github.com/tolcheev/recny-releases/releases",
     notes: "Experimental tray client for student-side testing."
   }
 };

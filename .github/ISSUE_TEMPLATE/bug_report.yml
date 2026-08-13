@@ -1,12 +1,12 @@
 name: Bug report
-description: Report a ToRec install, recording, auto-start, update, or playback problem.
+description: Report a Recny install, recording, auto-start, update, or playback problem.
 title: "[Bug] "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Спасибо за фидбек. Заполни коротко: что случилось, где был созвон, ОС и версия ToRec. Не прикладывай приватные аудиофайлы, если в них есть чувствительные данные.
+        Спасибо за фидбек. Заполни коротко: что случилось, где был созвон, ОС и версия Recny. Не прикладывай приватные аудиофайлы, если в них есть чувствительные данные.
   - type: input
     id: platform
     attributes:
@@ -18,7 +18,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: ToRec version
+      label: Recny version
       placeholder: v0.1.6 / v0.2.4-beta
     validations:
       required: true
@@ -34,9 +34,10 @@ body:
     attributes:
       label: App install path
       options:
-        - /Applications/ToRec.app
-        - dist/ToRec.app
-        - apps/macos/.build/app/ToRec.app
+        - /Applications/Recny.app
+        - dist/Recny.app
+        - apps/macos/.build/app/Recny.app
+        - Legacy /Applications/ToRec.app
         - Windows zip folder
         - Other
   - type: input
@@ -49,7 +50,7 @@ body:
     attributes:
       label: What happened?
       description: What did you do and what broke?
-      placeholder: Запустил ToRec, вошел в Zoom, запись не стартовала / попросило права повторно / нет системного звука...
+      placeholder: Запустил Recny, вошел в Zoom, запись не стартовала / попросило права повторно / нет системного звука...
     validations:
       required: true
   - type: textarea

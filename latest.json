@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-13T14:23:29Z",
+  "generated_at": "2026-08-13T21:27:25Z",
   "macos": {
     "version": "0.1.8",
     "display_version": "v0.1.8",
     "build": "9",
-    "release_url": "https://github.com/tolcheev/torec-releases/releases/tag/v0.1.8",
-    "download_url": "https://github.com/tolcheev/torec-releases/releases/download/v0.1.8/ToRec-v0.1.8-macOS.dmg",
-    "sha256_url": "https://github.com/tolcheev/torec-releases/releases/download/v0.1.8/ToRec-v0.1.8-macOS.dmg.sha256",
+    "release_url": "https://github.com/tolcheev/recny-releases/releases/tag/v0.1.8",
+    "download_url": "https://github.com/tolcheev/recny-releases/releases/download/v0.1.8/ToRec-v0.1.8-macOS.dmg",
+    "sha256_url": "https://github.com/tolcheev/recny-releases/releases/download/v0.1.8/ToRec-v0.1.8-macOS.dmg.sha256",
     "notes": "Shows every completed recording in one flat Finder folder with source, local time, and date in the file name."
   },
   "windows": {
     "version": "0.2.5-beta",
     "display_version": "v0.2.5-beta",
     "build": "5",
-    "release_url": "https://github.com/tolcheev/torec-releases/releases/tag/torec-test-builds-2026-06-03-v7",
-    "download_url": "https://github.com/tolcheev/torec-releases/releases/download/torec-test-builds-2026-06-03-v7/ToRec-Windows-v0.2.5-beta.zip",
-    "sha256_url": "https://github.com/tolcheev/torec-releases/releases/download/torec-test-builds-2026-06-03-v7/ToRec-Windows-v0.2.5-beta.zip.sha256",
+    "release_url": "https://github.com/tolcheev/recny-releases/releases/tag/torec-test-builds-2026-06-03-v7",
+    "download_url": "https://github.com/tolcheev/recny-releases/releases/download/torec-test-builds-2026-06-03-v7/ToRec-Windows-v0.2.5-beta.zip",
+    "sha256_url": "https://github.com/tolcheev/recny-releases/releases/download/torec-test-builds-2026-06-03-v7/ToRec-Windows-v0.2.5-beta.zip.sha256",
     "notes": "Adds tray update notification with a badge and later/skip actions."
   }
 }
